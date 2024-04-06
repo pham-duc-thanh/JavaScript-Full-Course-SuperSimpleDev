@@ -1,16 +1,39 @@
-<style>
-  button {
-    background-color: red;
-    color: white;
-    border: none;
-  }
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>HTML CSS Review</title>
 
-</style>
+    <style>
+      .red-button {
+        background-color: red;
+        color: white;
+        border: none;
+      }
 
-<button title="Good job!">
-  hello
-</button>
+      .yellow-button {
+        background-color: yellow;
+      }
+    </style>
+  </head>
 
-<p>
-  paragraph of <button>hello</button> text
-</p>
+  <body>
+    <button title="Good job!" class="red-button" onclick="alert('Good jod!');">
+      hello
+    </button>
+
+    <p>paragraph of <button class="yellow-button">hello</button> text</p>
+
+    <script>
+      // This is a commet
+      // This code creates a popup
+      console.log(2 + 2);
+      console.log("some" + "text");
+
+      /*
+        multi
+        line
+        comment
+      */
+    </script>
+  </body>
+</html>
